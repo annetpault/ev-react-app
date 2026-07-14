@@ -10,7 +10,7 @@ const ViewVehicle = () => {
     const [data, changeData] = useState([])
 
     const fetchData = () => {
-        axios.get("http://localhost:4000/view-vehicle").then(
+        axios.post("http://localhost:4000/view-vehicle").then(
             (response) => {
                 changeData(response.data)
             }
