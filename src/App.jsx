@@ -15,10 +15,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Routes>
-      </Routes>
-        <Route path='/' element={<AddVehicle />} />
-        <Route path='/view' element={<ViewVehicle />} />
+        <Routes>
+          <Route path='/' element={<AddVehicle />} />
+          <Route path='/view' element={<ViewVehicle />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
